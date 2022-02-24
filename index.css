@@ -1,0 +1,18 @@
+.popup{
+    position: absolute;
+    left: calc(50% - 250px);
+    top: calc(50% - 200px);
+    /*margin: auto;*/
+    background-color: tomato;
+    width: 500px;
+    height: 400px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+}
+
+.root {
+    position: relative;
+    min-height: 100vh;
+}
